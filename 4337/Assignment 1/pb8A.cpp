@@ -5,10 +5,10 @@ void quicksort(int*, int, int);
 void printarray(int*, int);
 
 int main(){
-    int size = 2;
+    int size = 5;
     int low = 0;
     int high = size;
-    int array[2] = {2, 0};
+    int array[5] = {2, 0, 3, 4, 1};
 
     cout << "Unsorted array: ";
     printarray(array, size);
